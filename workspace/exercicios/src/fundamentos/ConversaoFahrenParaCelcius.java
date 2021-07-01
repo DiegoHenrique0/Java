@@ -15,7 +15,7 @@ public class ConversaoFahrenParaCelcius {
 		// calculo
 		double c = (f - AJUSTE) * FATOR;
 
-		System.out.println("Está fazendo " + c + "°C hoje!");
+		System.out.printf("Está fazendo %.2f °C hoje!", c);
 	}
 
 }
