@@ -4,7 +4,9 @@ import java.util.Scanner;
 
 public class MediaSalario {
 	public static void main(String[] args) {
+		
 		Scanner entrada = new Scanner(System.in);
+		
 		// Captura de dados
 		System.out.print("Informe o primeiro sálario: ");
 		String salario1 = entrada.nextLine().replace(",", ".");
@@ -22,6 +24,7 @@ public class MediaSalario {
 		double media = (s1 + s2 + s3) / 3;
 
 		System.out.printf("A média salarial dos 3 meses foi de: %.2f", media);
+		
 		entrada.close();
 	}
 
