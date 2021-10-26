@@ -9,9 +9,11 @@ public class DiaDaSemana {
 		
 		Scanner entrada = new Scanner(System.in);
 		
+		//captura de dados
 		System.out.println("Nome do dia: ");
 		String dia = entrada.next();
 		
+		//dias da semana
 		if (dia.equalsIgnoreCase("domingo")) {
 			System.out.println(1);
 		} else if (dia.equalsIgnoreCase("segunda")) {
