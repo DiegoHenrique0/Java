@@ -1,6 +1,6 @@
 package classe;
 
-public class EqualsHashCode {
+public class Equals {
 	
 	public static void main(String[] args) {
 		
