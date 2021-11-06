@@ -8,6 +8,7 @@ public class Equals {
 		Usuario u2 = new Usuario("Diego", "diegohenrique022@gmail.com");
 		
 		System.out.println(u1.email);
+		System.out.println(u2.nome);
 	}
 
 }

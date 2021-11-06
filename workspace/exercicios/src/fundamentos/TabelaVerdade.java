@@ -2,6 +2,7 @@ package fundamentos;
 
 public class TabelaVerdade {
 	
+	@SuppressWarnings("unused")
 	public static void main(String[] args) {
 		
 		// Tabela verdade E
