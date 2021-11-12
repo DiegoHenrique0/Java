@@ -20,9 +20,18 @@ public class CarroTeste {
 		c1.acelerar();
 		c1.acelerar();
 		c1.acelerar();
+		c1.acelerar();
+
 		System.out.println(c1.motor.giros());
 		
 		//freiar
+		c1.frear();
+		c1.frear();
+		c1.frear();
+		c1.frear();
+		c1.frear();
+		c1.frear();
+		c1.frear();
 		c1.frear();
 		c1.frear();
 		c1.frear();
